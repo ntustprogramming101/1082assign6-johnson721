@@ -17,7 +17,7 @@ class Robot extends Enemy{
     laser.display();
     pushMatrix();
     if(currentDir==-1){
-        scale(-1,1);
+      scale(-1,1);
       image(robot, -x-robot.width, y);
     }else{
       image(robot, x, y);

@@ -49,7 +49,7 @@ void setup() {
 	sweethome = loadImage("img/sweethome.png");
 	soilEmpty = loadImage("img/soils/soilEmpty.png");
 	font = createFont("font/font.ttf", 56);
-	textFont(font);
+	//textFont(font);
 	// Load PImage[][] soils
 	soilImages = new PImage[6][5];
 	for(int i = 0; i < soilImages.length; i++){
